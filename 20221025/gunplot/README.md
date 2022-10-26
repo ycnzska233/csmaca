@@ -3,17 +3,17 @@ gnuplot是一套跨平臺的數學繪圖自由軟體。使用命令列介面，�
 
 
 ## setup
-` sudo apt install gnuplot`
+`~$ sudo apt install gnuplot`  
 follow steps enter pwd
 
 ## 繪製單一曲線
 
 ### txt file
-`gedit 1.txt &`
+`gedit 1.txt &`  
 ![1.txt](img/1.png)
 
 ### gnuplot
-進入 gnuplot `~$ gnuplot`
+進入 gnuplot  `~$ gnuplot`  
 ```
 //繪製
 > plot "1.txt" with linespoints
